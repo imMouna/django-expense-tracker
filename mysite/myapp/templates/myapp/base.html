@@ -1,0 +1,26 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static 'myapp/styles.css' %}">
+    <link rel="stylesheet" href="{% static 'myapp/style.css' %}">
+    <title>index view</title>
+</head>
+<body>
+    <nav class="shadow-lg p-5">
+        <div class="container flex flex-wrap justify-between items-center mx-auto">
+            <a href="#" class="flex">
+                <img class="h-12 mr-4 ml-10" src="{% static 'myapp/images/wallet.png' %}" alt="">
+                <span class="ml-2 self-center text-xl font-semibold">Expense Tracker</span>
+            </a>
+        </div>
+    </nav>
+    {% block body %}
+        <h1>This is the first view.</h1>
+        <p>Testing test.</p>
+    {% endblock %}
+
+</body>
+</html>

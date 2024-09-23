@@ -1,0 +1,13 @@
+# Ignore virtual environment
+env/
+
+# Ignore the SQLite database
+mysite/db.sqlite3
+
+# Ignore Node Modules
+mysite/node_modules
+
+# Ignore pycache files
+__pycache__/
+
+
