@@ -10,4 +10,7 @@ mysite/node_modules
 # Ignore pycache files
 __pycache__/
 
+.idea
+
+
 
