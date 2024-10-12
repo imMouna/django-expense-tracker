@@ -20,7 +20,7 @@ The Expense Tracker is a web application that helps users manage their personal 
 ## Screenshots
 
 ### Home Page:
- <img src="images/expense-tracker-1.png" alt="img1" width="500" height="300">
+ <img src="images/expense-tracker-1.png" alt="img1" width="500" height="100">
 
 ### All Expenses:
 <img src="images/expense-tracker-2.png" alt="img2" width="500" height="300">
